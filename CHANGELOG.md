@@ -24,4 +24,4 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Typed `PinMode` enum.
 - Verified on hardware against nina-fw 2.0.0 and 3.0.1.
 
-[Unreleased]: https://github.com/x/embassy-nina/compare/HEAD
+[Unreleased]: https://github.com/Bertus-W/embassy-nina/commits/master

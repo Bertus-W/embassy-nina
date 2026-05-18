@@ -149,7 +149,7 @@ while let Ok(n) = sock.read(&mut buf).await {
 
 More reference code in [`examples/`](examples/) and full working binaries
 under `blinky/src/bin/` in the [workspace
-repo](https://github.com/x/embassy-nina).
+repo](https://github.com/Bertus-W/embassy-nina).
 
 ## Known gotchas
 

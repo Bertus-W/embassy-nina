@@ -17,6 +17,11 @@ NINA-side mbedTLS image.
 Built on `embedded-hal-async` so it works under any executor; tested
 end-to-end under embassy on the RP2040.
 
+> **Not affiliated with the [embassy-rs](https://github.com/embassy-rs/embassy)
+> project.** The `embassy-` prefix here signals that the crate targets the
+> embassy / `embedded-hal-async` trait ecosystem — it is not an official
+> embassy-rs crate.
+
 ## At a glance
 
 ```rust,ignore

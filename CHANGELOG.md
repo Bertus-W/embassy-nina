@@ -7,6 +7,16 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [0.1.2] - 2026-05-18
+
+### Security
+
+- The example file `examples/led_http_server_rp2040.rs` shipped in
+  0.1.0 and 0.1.1 contained hard-coded WiFi credentials that were
+  unintentionally included from the author's development environment.
+  Replaced with `YOUR-SSID` / `YOUR-PSK` placeholders. Both prior
+  versions have been yanked from crates.io.
+
 ## [0.1.1] - 2026-05-18
 
 ### Fixed
@@ -34,6 +44,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Typed `PinMode` enum.
 - Verified on hardware against nina-fw 2.0.0 and 3.0.1.
 
-[Unreleased]: https://github.com/Bertus-W/embassy-nina/compare/v0.1.1...HEAD
+[Unreleased]: https://github.com/Bertus-W/embassy-nina/compare/v0.1.2...HEAD
+[0.1.2]: https://github.com/Bertus-W/embassy-nina/compare/v0.1.1...v0.1.2
 [0.1.1]: https://github.com/Bertus-W/embassy-nina/compare/v0.1.0...v0.1.1
 [0.1.0]: https://github.com/Bertus-W/embassy-nina/releases/tag/v0.1.0

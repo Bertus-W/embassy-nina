@@ -48,7 +48,7 @@ sock.write_all(b"GET / HTTP/1.0\r\n\r\n").await?;
 ```
 
 A complete RP2040 example — including pin wiring, SPI config, and a
-runnable HTTP fetch — lives in [`examples/`](examples/).
+runnable HTTP fetch — lives in [`examples/`](https://github.com/Bertus-W/embassy-nina/tree/master/examples).
 
 ## What it does
 
@@ -91,7 +91,7 @@ at your option.
 
 PRs welcome. For protocol-level notes (wire-format quirks, nina-fw
 behaviour you'll hit when extending the opcode surface), see
-[`PROTOCOL.md`](PROTOCOL.md).
+[`PROTOCOL.md`](https://github.com/Bertus-W/embassy-nina/blob/master/PROTOCOL.md).
 
 Unless you explicitly state otherwise, any contribution intentionally
 submitted for inclusion in the work by you, as defined in the Apache-2.0

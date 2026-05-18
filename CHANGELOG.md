@@ -7,6 +7,16 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [0.1.1] - 2026-05-18
+
+### Fixed
+
+- README links to `examples/` and `PROTOCOL.md` now use absolute GitHub
+  URLs so they resolve on docs.rs, where the README is embedded as the
+  crate's top-level rustdoc via `#![doc = include_str!(...)]`.
+
+## [0.1.0] - 2026-05-18
+
 ### Added
 
 - Initial public release.
@@ -24,4 +34,6 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Typed `PinMode` enum.
 - Verified on hardware against nina-fw 2.0.0 and 3.0.1.
 
-[Unreleased]: https://github.com/Bertus-W/embassy-nina/commits/master
+[Unreleased]: https://github.com/Bertus-W/embassy-nina/compare/v0.1.1...HEAD
+[0.1.1]: https://github.com/Bertus-W/embassy-nina/compare/v0.1.0...v0.1.1
+[0.1.0]: https://github.com/Bertus-W/embassy-nina/releases/tag/v0.1.0
